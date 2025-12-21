@@ -1,0 +1,17 @@
+[
+  {
+    "pergunta": "O que você mais valoriza?",
+    "alternativas": ["Coragem", "Ambição", "Inteligência", "Lealdade"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual dessas matérias você prefere?",
+    "alternativas": ["Defesa Contra as Artes das Trevas", "Poções", "Feitiços", "Herbologia"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Como você age diante de um desafio?",
+    "alternativas": ["Enfrento sem medo", "Uso estratégia", "Analiso bem", "Ajudo meus amigos"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  }
+]

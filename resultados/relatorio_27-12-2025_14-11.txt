@@ -1,0 +1,32 @@
+Relatorio do quiz de Hogwartss
+============================
+
+Sua casa e: Grifinória
+
+Pontuação:
+Grifinória: 16
+Sonserina: 2
+Corvinal: 2
+Lufa-Lufa: 0
+
+Histórico de Respostas:
+- O que você mais valoriza? | Resposta: Coragem
+- Como você reage diante de um desafio difícil? | Resposta: Analiso todas as possibilidades
+- Qual qualidade mais combina com você? | Resposta: Determinação
+- Qual dessas situações você prefere? | Resposta: Defender alguém em perigo
+- O que mais te motiva? | Resposta: Justiça
+- Qual animal você prefere? | Resposta: Leão
+- Como você prefere resolver conflitos? | Resposta: Enfrentando diretamente
+- Qual dessas palavras mais te define? | Resposta: Ousadia
+- Em um grupo, você costuma ser: | Resposta: O estrategista
+- Qual matéria de Hogwarts você prefere? | Resposta: Defesa Contra as Artes das Trevas
+- O que você faria ao encontrar um objeto poderoso? | Resposta: Usaria para proteger os outros
+- Qual dessas cores você mais gosta? | Resposta: Vermelho
+- Como você prefere ser lembrado? | Resposta: Por atos heroicos
+- Qual é seu maior defeito? | Resposta: Perfeccionismo
+- O que você faria se visse alguém quebrando regras? | Resposta: Confrontaria
+- Qual dessas qualidades você mais admira? | Resposta: Coragem
+- Qual é sua maior força? | Resposta: Determinação
+- Qual dessas situações te deixa mais confortável? | Resposta: Aventura
+- O que você mais teme? | Resposta: Covardia
+- Qual dessas escolhas você faria primeiro? | Resposta: Agir

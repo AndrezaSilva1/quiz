@@ -66,7 +66,7 @@ def praticar_quiz():
                 print("digite os numeros")
     
     casa_destino = max(casas, key=casas.get)
-    gerar_conclusao = (casa_destino, casas, regresso)
+    gerar_conclusao(casa_destino, casas, regresso)
 
 # função para gerar o relatorio
 def gerar_conclusao(casa, pontuacao, regresso):
@@ -94,6 +94,7 @@ def gerar_conclusao(casa, pontuacao, regresso):
 # execução 
 if __name__ == "__main__":
     praticar_quiz()
+
 
 
 

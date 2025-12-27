@@ -5,13 +5,163 @@
     "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
   },
   {
-    "pergunta": "Qual dessas matérias você prefere?",
-    "alternativas": ["Defesa Contra as Artes das Trevas", "Poções", "Feitiços", "Herbologia"],
+    "pergunta": "Como você reage diante de um desafio difícil?",
+    "alternativas": [
+      "Enfrento sem pensar duas vezes",
+      "Vejo como uma oportunidade de crescer",
+      "Analiso todas as possibilidades",
+      "Peço ajuda e sigo em equipe"
+    ],
     "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
   },
   {
-    "pergunta": "Como você age diante de um desafio?",
-    "alternativas": ["Enfrento sem medo", "Uso estratégia", "Analiso bem", "Ajudo meus amigos"],
+    "pergunta": "Qual qualidade mais combina com você?",
+    "alternativas": ["Bravura", "Determinação", "Sabedoria", "Paciência"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual dessas situações você prefere?",
+    "alternativas": [
+      "Defender alguém em perigo",
+      "Conquistar algo importante",
+      "Aprender algo novo",
+      "Ajudar quem precisa"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "O que mais te motiva?",
+    "alternativas": ["Justiça", "Poder", "Conhecimento", "Amizade"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual animal você prefere?",
+    "alternativas": ["Leão", "Serpente", "Águia", "Texugo"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Como você prefere resolver conflitos?",
+    "alternativas": [
+      "Enfrentando diretamente",
+      "Usando estratégia",
+      "Conversando racionalmente",
+      "Buscando harmonia"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual dessas palavras mais te define?",
+    "alternativas": ["Ousadia", "Astúcia", "Criatividade", "Empatia"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Em um grupo, você costuma ser:",
+    "alternativas": [
+      "O líder corajoso",
+      "O estrategista",
+      "O pensador",
+      "O apoiador"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual matéria de Hogwarts você prefere?",
+    "alternativas": [
+      "Defesa Contra as Artes das Trevas",
+      "Poções",
+      "Feitiços",
+      "Herbologia"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "O que você faria ao encontrar um objeto poderoso?",
+    "alternativas": [
+      "Usaria para proteger os outros",
+      "Usaria para alcançar seus objetivos",
+      "Estudaria antes de usar",
+      "Guardaria para não causar danos"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual dessas cores você mais gosta?",
+    "alternativas": ["Vermelho", "Verde", "Azul", "Amarelo"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Como você prefere ser lembrado?",
+    "alternativas": [
+      "Por atos heroicos",
+      "Por grandes conquistas",
+      "Por inteligência",
+      "Por bondade"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual é seu maior defeito?",
+    "alternativas": [
+      "Impulsividade",
+      "Ambição excessiva",
+      "Perfeccionismo",
+      "Confiar demais"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "O que você faria se visse alguém quebrando regras?",
+    "alternativas": [
+      "Confrontaria",
+      "Usaria isso a meu favor",
+      "Analisaria a situação",
+      "Tentaria ajudar"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual dessas qualidades você mais admira?",
+    "alternativas": ["Coragem", "Liderança", "Inteligência", "Lealdade"],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual é sua maior força?",
+    "alternativas": [
+      "Determinação",
+      "Persistência",
+      "Raciocínio",
+      "Trabalho em equipe"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual dessas situações te deixa mais confortável?",
+    "alternativas": [
+      "Aventura",
+      "Competição",
+      "Estudo",
+      "Convivência"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "O que você mais teme?",
+    "alternativas": [
+      "Covardia",
+      "Fracasso",
+      "Ignorância",
+      "Solidão"
+    ],
+    "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
+  },
+  {
+    "pergunta": "Qual dessas escolhas você faria primeiro?",
+    "alternativas": [
+      "Agir",
+      "Planejar",
+      "Estudar",
+      "Ajudar"
+    ],
     "casa": ["Grifinória", "Sonserina", "Corvinal", "Lufa-Lufa"]
   }
 ]

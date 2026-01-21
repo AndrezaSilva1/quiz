@@ -123,4 +123,8 @@ O Quiz de Hogwarts é um projeto funcional, mostrar de forma prática a aplicaç
 
 O projeto permite futuras expansões, como a inclusão de novas perguntas, melhorias de interação com a pessoa ou até a implementação de uma interface gráfica.
 
+Canva: 
+https://www.canva.com/design/DAG-lsGKJtE/JkQYoW4Fk4m_rs5lUIZ45w/edit?utm_content=DAG-lsGKJtE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
 

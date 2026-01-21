@@ -45,17 +45,17 @@ O sistema de as funcionalidades:
 
 A organização do arquivo do Quiz:
 
-quiz/
-│
-├── data/
-│ └── perguntas.json
-│
-├── resultados/
-│ └── relatorio_27-12-2025_14-11.txt
-│
-├── harry.py
-│
-└── README.md
+- quiz/
+- │
+- ├── data/
+- │ └── perguntas.json
+- │
+- ├── resultados/
+- │ └── relatorio_27-12-2025_14-11.txt
+- │
+- ├── harry.py
+- │
+- └── README.md
 
 
 - data/: contém o arquivo JSON com as perguntas do Quiz;
@@ -125,6 +125,7 @@ O projeto permite futuras expansões, como a inclusão de novas perguntas, melho
 
 Canva: 
 https://www.canva.com/design/DAG-lsGKJtE/JkQYoW4Fk4m_rs5lUIZ45w/edit?utm_content=DAG-lsGKJtE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 
 
 

@@ -1,10 +1,20 @@
+# importação das bibliotecas padrão do python
+# json: leitura do arquivo de perguntas
+# pathlib: manipulação de caminhos de arquivos e pastas
+# gerar a data e hora no relatorio em arquivo txt
+# os e platform: limpeja de tela de acordo com sistema operacional
 import json
 from pathlib import Path
 from datetime import datetime
 import os
 import platform
 
-# função que limpar a tela
+
+# função: limpa_tela
+# limpar o terminal para melhora
+# a vizualização do quiz durante a execução
+# A função identifica qual o sistema operacional
+# para usar o comando correto o (Windows ou Linux/Mac).
 def limpar_tela():
     equipamento = platform.system()
     if equipamento == "Windows":
@@ -12,7 +22,13 @@ def limpar_tela():
     else:
         os.system("clear")
 
-# função parar carregar as perguntas
+
+# função: executar o quiz
+# responsavel por carregar as perguntas do quiz
+# a partir de um arquivo JSON externo.
+# Também executa o tratamento de erros, 
+# garantir que o arquivo nãp quebre caso o arquivo não exista
+# ou esteja mal formatado
 def exercutar_quiz():
     passagens = Path("data/perguntas.json")
     try:
@@ -25,12 +41,21 @@ def exercutar_quiz():
         print("erro.registro json invalido")
         return []
     
-# função principal do quiz
+
+# função principal: praticar quiz
+# Esta é a função centra do programa
+# Ela controla toda a logica do quiz:
+# - carregar as perguntas
+# -Interação com usuario
+# -Calculo da pontuação
+# -Armazenamento de historicos e perguntas
+# -Definição de sua casa principal
 def praticar_quiz():
     questionamentos = exercutar_quiz()
     if not questionamentos:
         return
-    
+
+    # Dicionario que guarda a pontuação das casas
     casas = {
         "Grifinória": 0,
         "Sonserina": 0,
@@ -38,6 +63,9 @@ def praticar_quiz():
         "Lufa-Lufa": 0
     }
 
+
+    # Lista reposovel por guarda historico de perguntas 
+    # e reposta do usuario
     regresso = []
 
     limpar_tela()
@@ -49,9 +77,14 @@ def praticar_quiz():
         limpar_tela()
         print(f"Questão {h + 1} - {p['pergunta']}\n")
 
+
+        # Exibição da altenativas enumeradas
         for idx, alt in enumerate(p["alternativas"], start=1):
             print(f"{idx} - {alt}")
 
+
+        # Loop que garantir que o usuario
+        # informe uma reposta valida
         while True:
             try:
                 resposta = int(input("\nDigite sua resposta: "))
@@ -64,11 +97,23 @@ def praticar_quiz():
                     print("reposta invalida")
             except ValueError:
                 print("digite os numeros")
-    
+
+
+    # Apos o usuario reponde as perguntas, 
+    # o programa identifica a casa com maior pontuação
     casa_destino = max(casas, key=casas.get)
+
+
+    # Chamada da função reponsavel por gerar o relatorio final do quiz
+    # o relatorio final e exibir o resultado
     gerar_conclusao(casa_destino, casas, regresso)
 
-# função para gerar o relatorio
+
+# função: gerar_conclusão
+# resposavel por gerar o relatorio final do quiz
+# Cria a pasta de resultados, escreve o arquivo TXT
+# com a data e hora, exibe o resultado no terminal
+# e apresenta historico completo de perguntas e repostas
 def gerar_conclusao(casa, pontuacao, regresso):
     pasta = Path("resultados")
     pasta.mkdir(exist_ok=True)
@@ -91,7 +136,11 @@ def gerar_conclusao(casa, pontuacao, regresso):
     print(f"✨ Sua casa em Hogwarts é: {casa}!")
     print(f"\nRelatório salvo em: {nome_anexo}")
 
-# execução 
+
+# Bloco principal da execução
+# Garantir que o programa so executara
+# quando o arquivo for rodado diretamente
+# e não for importado como modulo
 if __name__ == "__main__":
     praticar_quiz()
 
